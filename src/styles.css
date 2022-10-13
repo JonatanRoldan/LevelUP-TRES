@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background:linear-gradient(0deg, rgba(75,73,73,1) 2%, rgba(255,16,16,0.577468487394958) 48%, rgba(75,73,73,1) 100%);
 }
 
@@ -20,4 +21,9 @@
     border-radius: 50px;
     font-family: 'Helvetica', sans-serif;
     font-size: 4rem;
+}
+
+#ColorString{
+  color: #ffffff;
+  font-size: 3rem;
 }
